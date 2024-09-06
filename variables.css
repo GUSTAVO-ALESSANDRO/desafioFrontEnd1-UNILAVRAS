@@ -1,1 +1,9 @@
-
+:root{
+    --color-txt:white;
+    --color-tit:rgb(165, 231, 255);
+    --color-fund:rgb(0, 6, 29);
+    --color-outra:rgb(0, 84, 168);
+    --espacop:5px;
+    --espacom:10px;
+    --espacog:15px;
+}
