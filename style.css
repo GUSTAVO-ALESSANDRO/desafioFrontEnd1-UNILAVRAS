@@ -65,6 +65,28 @@ p{
     margin-right: 100px;
 }
 
+footer{
+    font-size: 12px;
+}
+
+footer div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: var(--espacog);
+}
+
+footer img{
+    width: 20px;
+    height: 20px;
+    border-radius: 20%;
+}
+
+main{
+    padding-bottom: 30px;
+    border-bottom: 5px solid white;
+}
+
 .fotoeu{
     width: 200px;
     height: 200px;
@@ -78,4 +100,10 @@ p{
     align-items: center;
     margin: var(--espacog);
     margin-left: 70px;
+}
+
+.nomerodape{
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: underline;
 }
