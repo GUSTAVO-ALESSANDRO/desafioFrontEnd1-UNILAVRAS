@@ -9,60 +9,15 @@
     font-family: 'Nunito', sans-serif;
 }
 
-
-body{
-    color: var(--color-txt);
-    background-color:var(--color-fund);
-    margin:15px;
-}
-
-ul{
-    display: flex;
-    justify-content: right;
-    border-top: 5px solid white;
-}
-
-header{
-    border-top: 5px solid white;
-}
-
-li{
-    margin: 20px;
-    margin-right: 50px;
-}
-
 a{
     color: var(--color-tit);
     text-decoration: none;
 }
 
-nav a:hover{
-    color: var(--color-outra)
-}
-
-ul{
-    list-style: none;
-}
-
-h1{
-    padding:var(--espacop);
-    margin-top: 10px;
-}
-
-h2{
-    margin-top: var(--espacog)
-}
-
-h3{
-    color: var(--color-tit);
-    padding: var(--espacom);
-    margin-top: var(--espacog);
-}
-
-p{
-    text-indent: 7px;
-    margin-left: var(--espacog);
-    margin-right: 100px;
+body{
+    color: var(--color-txt);
+    background-color:var(--color-fund);
+    margin:15px;
 }
 
 footer{
@@ -82,17 +37,90 @@ footer img{
     border-radius: 20%;
 }
 
+form input{
+    padding: 15px;
+    margin:10px;
+    margin-left: 80px;
+}
+
+h1{
+    padding:var(--espacop);
+    margin-top: 10px;
+}
+
+h2{
+    margin-top: var(--espacog);
+}
+
+h3{
+    color: var(--color-tit);
+    padding: var(--espacom);
+    margin-top: var(--espacog);
+}
+
+header{
+    border-top: 5px solid white;
+}
+
+li{
+    margin: 20px;
+    margin-right: 50px;
+}
+
 main{
     padding-bottom: 30px;
     border-bottom: 5px solid white;
 }
 
-.fotoeu{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 5px solid var(--color-outra);
+main p{
+    margin-left: 40px;
     margin-right: 40px;
+}
+
+main section{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+nav{
+    display: flex;
+    border-top: 5px solid white;
+    justify-content: space-between;
+}
+
+nav a:hover{
+    color: var(--color-outra)
+}
+
+p{
+    text-indent: 7px;
+    margin-left: var(--espacog);
+    margin-right: 100px;
+}
+
+section img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20%;
+}
+
+section p{
+    text-indent: 15px;
+}
+
+ul{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+}
+
+/*classes*/
+
+.contatoopcoes{
+    padding-top: 15px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .eu{
@@ -102,8 +130,57 @@ main{
     margin-left: 70px;
 }
 
+.fotoeu{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid var(--color-outra);
+    margin-right: 70px;
+}
+
+
+.formi{
+    padding-left: 165px;
+    padding-right: 150px;
+    background-color: var(--color-tit);
+}
+
+
+input::placeholder{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.introducao{
+    border: 5px solid white;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.mensagemform{
+    padding-left: 165px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    background-color: var(--color-tit);
+}
+
 .nomerodape{
     padding-top: 20px;
     text-align: center;
     text-decoration: underline;
+}
+
+.ola{
+    padding-left: 50px;
+}
+
+.divcontato{
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+}
+
+.titpessoal{
+    text-align: center;
 }
