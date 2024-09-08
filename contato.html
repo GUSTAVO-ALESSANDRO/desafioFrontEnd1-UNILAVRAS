@@ -43,25 +43,21 @@
 
     <!--parte principal da pagina-->
     <main>
-        <section>
-            <h3>Formulário de Contato</h3>
+        <h3>Formulário de Contato</h3>
             <p>
                 Preencha o formulário abaixo com suas informações e mensagem. 
                 Nossa equipe responderá o mais rápido possível.
             </p>
-            <form>
-                <input type="text" class="formi" placeholder="Seu Nome">
-                <br>
-                <input type="text" class="formi" placeholder="Seu Email">
-                <br>
-                <input type="text" class="formi" placeholder="Assunto">
-                <br>
-            </form>
-            <form class="form">
-                <input type="text" class="mensagemform" placeholder="Mensagem">
-            </form>
-        </div>
-        <button>Enviar</button>
+        <section class="sectionmain">
+                <form>
+                    <input type="text" class="inputs" placeholder="Digite o seu nome">
+                    <input type="text" class="inputs" placeholder="Digite seu e-mail">
+                    <input type="text" class="inputs" placeholder="Assunto">
+                    <textarea name="descricao" class="inputs" cols="25" rows="10" placeholder="Escreva aqui sua mensagem"></textarea>
+                    <button type="button" onclick="window.location.href='pessoal.html'">Enviar</button>
+
+                </form>
+        </section>
 
         <p class="contatoopcoes">
             Prefere enviar um email diretamente? Você pode nos contatar em: 
